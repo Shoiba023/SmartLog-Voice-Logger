@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SmartLog Voice Logger</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+</head>
+<body>
+  <img src="logo.png" alt="SmartLog Logo" class="logo" />
+  <h1>🎙️ Smart Voice Logger</h1>
+
+  <button onclick="startDictation()">🖋️ Start Voice</button>
+  <br />
+  <textarea id="text" placeholder="Your spoken text will appear here..."></textarea>
+  <br />
+  <button onclick="submitData()">📤 Submit to Sheet</button>
+
+  <p id="status"></p>
+
+  <footer>
+    🚀 Built by <a href="https://smartaipartners.io" target="_blank">Smart AI Partners</a> — Smart Tools for Smart People 💡
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
